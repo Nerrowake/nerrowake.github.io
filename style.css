@@ -10,11 +10,11 @@
   --text:         #dce8f0;
   --muted:        #7a9ab3;
   --subtle:       #3d5a70;
-  --accent:       #f97316;
-  --accent-dim:   rgba(249, 115, 22, 0.15);
-  --accent-glow:  rgba(249, 115, 22, 0.08);
-  --link:         #7dd3fc;
-  --link-hover:   #bae6fd;
+  --accent:       #00d4ff;
+  --accent-dim:   rgba(0, 212, 255, 0.12);
+  --accent-glow:  rgba(0, 212, 255, 0.06);
+  --link:         #00d4ff;
+  --link-hover:   #7ee8ff;
 }
 
 *, *::before, *::after {
@@ -45,8 +45,8 @@ body::before {
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(ellipse 60% 40% at 15% 0%,   rgba(125, 211, 252, 0.07) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 35% at 90% 100%, rgba(249, 115, 22,  0.09) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 40% at 15% 0%,   rgba(0, 212, 255, 0.09) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 35% at 90% 100%, rgba(0, 212, 255, 0.05) 0%, transparent 65%),
     radial-gradient(ellipse 80% 50% at 50% 50%,  rgba(10,  20,  35,  0.95) 0%, transparent 100%);
   pointer-events: none;
   z-index: 0;
@@ -93,38 +93,16 @@ body::after {
 }
 
 .site-logo {
-  font-family: Orbitron, sans-serif;
-  font-weight: 900;
-  font-size: 1rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-}
-
-.site-logo .logo-mark {
-  width: 28px;
-  height: 28px;
-  border: 2px solid var(--accent);
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 0 12px rgba(249, 115, 22, 0.3);
 }
 
-.site-logo .logo-mark svg {
-  width: 14px;
-  height: 14px;
-  fill: var(--accent);
-}
-
-.site-logo .logo-text span {
-  color: var(--accent);
+.site-logo img {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .header-label {
@@ -234,7 +212,7 @@ main {
 .doc-card:hover {
   border-color: var(--accent);
   background: rgba(13, 20, 28, 0.95);
-  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.2), 0 8px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 1px rgba(0, 212, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 .doc-card:hover::before {
