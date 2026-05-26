@@ -1,5 +1,7 @@
 # Nerrowake Legal
 
+<img src="assets/images/nerrowake-logo.png" alt="Nerrowake" height="40">
+
 > Your next life starts here.
 
 Static legal site for **Nerrowake** — hosted on GitHub Pages. Provides the Privacy Policy and Terms of Service for Wakebot, the official Nerrowake Discord bot.
@@ -44,17 +46,21 @@ Then visit `http://localhost:8080`.
 
 ```
 nerrowake-legal/
-├── index.html       # Legal index / homepage
-├── privacy.html     # Privacy Policy
-├── terms.html       # Terms of Service
-└── style.css        # All styles — single stylesheet
+├── assets/
+│   └── images/
+│       ├── nerrowake-logo.png   # Wordmark (header)
+│       └── nerrowake-icon.png   # Icon mark (favicon)
+├── index.html                   # Legal index / homepage
+├── privacy.html                 # Privacy Policy
+├── terms.html                   # Terms of Service
+└── style.css                    # All styles — single stylesheet
 ```
 
 ---
 
 ## Brand
 
-Nerrowake is a gaming and game-development brand focused on immersive worlds, community-driven games, devlogs, and playable experiences. Visual identity: dark atmospheric theme, Orbitron headings, orange accent (`#f97316`), steel-blue palette.
+Nerrowake is a gaming and game-development brand focused on immersive worlds, community-driven games, devlogs, and playable experiences. Visual identity: dark atmospheric theme, Orbitron headings, cyan accent (`#00d4ff`), steel-blue palette.
 
 ---
 
